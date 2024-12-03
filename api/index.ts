@@ -14,8 +14,21 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use(express.json());
 
-app.get("/", (req: Request, res: Response): void => {
-	res.status(200).json({ message: "Hello World" });
+app.get("/", (req, res) => {
+	res.send(`
+    <h1>API Documentation</h1>
+    <ul>
+      <li><strong>GET /</strong>: Returns this API documentation.</li>
+      <li><strong>GET /api/resources</strong>: Returns all resources.</li>
+      <li><strong>GET /api/resources/:id</strong>: Returns a resource by ID.</li>
+      <li><strong>GET /api/resources/available</strong>: Returns all available resources.</li>
+      <li><strong>GET /api/resources/category/:categorie</strong>: Returns resources by category.</li>
+      <li><strong>GET /api/resources/location/:city</strong>: Returns resources by location.</li>
+	  <li>
+		<a href="https://github.com/GorskiAnthony/api-re-connect" target="_blank">Lien Github</a>
+	  </li>
+    </ul>
+  `);
 });
 
 app.get("/api/resources", (req: Request, res: Response): void => {

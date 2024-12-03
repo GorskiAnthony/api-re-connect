@@ -1,0 +1,30 @@
+{
+	"name": "api_express_ts",
+	"version": "1.1.0",
+	"description": "Ce projet est une API simple construite avec Express.js. Il fournit des points de terminaison pour accéder à une liste d'éléments à partir d'un fichier JSON. L'API gère également les requêtes CORS et le traitement des données envoyées par le client.",
+	"main": "dist/index.js",
+	"scripts": {
+		"start": "node dist/index.js",
+		"dev": "nodemon api/index.ts",
+		"build": "tsc --outDir dist",
+		"vercel-build": "npm run build"
+	},
+	"keywords": [
+		"express",
+		"typescript",
+		"api"
+	],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.18.2"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.17",
+		"@types/express": "^5.0.0",
+		"nodemon": "^3.1.7",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.7.2"
+	}
+}

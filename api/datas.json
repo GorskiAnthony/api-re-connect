@@ -1,1 +1,242 @@
-[]
+[
+	{
+		"id": 1,
+		"nom": "Distribution de Nourriture",
+		"description": "Fournissez ou recevez de la nourriture en cas de besoin.",
+		"categorie": "Bien",
+		"disponibilite": true,
+		"localisation": "Paris"
+	},
+	{
+		"id": 2,
+		"nom": "Distribution d'Eau",
+		"description": "Partagez ou recevez de l'eau potable.",
+		"categorie": "Bien",
+		"disponibilite": true,
+		"localisation": "Lyon"
+	},
+	{
+		"id": 3,
+		"nom": "Soutien Moral",
+		"description": "Apportez ou recevez du soutien moral lors de moments difficiles.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Lyon"
+	},
+	{
+		"id": 4,
+		"nom": "Aide pour Courses",
+		"description": "Aidez ou demandez de l'aide pour effectuer des courses essentielles.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Paris"
+	},
+	{
+		"id": 5,
+		"nom": "Don de Vêtements",
+		"description": "Donnez ou recevez des vêtements pour ceux dans le besoin.",
+		"categorie": "Bien",
+		"disponibilite": true,
+		"localisation": "Nice"
+	},
+	{
+		"id": 6,
+		"nom": "Prêt d'Outils",
+		"description": "Partagez ou empruntez des outils pour bricoler ou jardiner.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Aix-en-Provence"
+	},
+	{
+		"id": 7,
+		"nom": "Aide pour Déménagement",
+		"description": "Proposez ou demandez de l'aide pour un déménagement.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Toulouse"
+	},
+	{
+		"id": 8,
+		"nom": "Activités pour Enfants",
+		"description": "Organisez ou participez à des activités éducatives ou récréatives pour les enfants.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Bordeaux"
+	},
+	{
+		"id": 9,
+		"nom": "Aide pour Animaux",
+		"description": "Aidez à prendre soin d'animaux de compagnie en cas d'absence.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Montpellier"
+	},
+	{
+		"id": 10,
+		"nom": "Cours d'Alphabétisation",
+		"description": "Offrez ou recevez des cours pour apprendre à lire et écrire.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Dijon"
+	},
+	{
+		"id": 11,
+		"nom": "Don de Livres",
+		"description": "Partagez vos livres préférés avec d'autres lecteurs.",
+		"categorie": "Bien",
+		"disponibilite": true,
+		"localisation": "Nice"
+	},
+	{
+		"id": 12,
+		"nom": "Aide Informatique",
+		"description": "Aidez à résoudre des problèmes informatiques ou proposez une formation.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Orléans"
+	},
+	{
+		"id": 13,
+		"nom": "Cours de Cuisine",
+		"description": "Apprenez ou enseignez des recettes simples pour tous.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Paris"
+	},
+	{
+		"id": 14,
+		"nom": "Randonnées en Groupe",
+		"description": "Partagez des moments en nature lors de randonnées collectives.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Lyon"
+	},
+	{
+		"id": 15,
+		"nom": "Soutien Scolaire",
+		"description": "Proposez ou demandez de l'aide pour les devoirs scolaires.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Paris"
+	},
+	{
+		"id": 16,
+		"nom": "Groupes de Discussions",
+		"description": "Rejoignez des groupes pour discuter de sujets variés.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Nancy"
+	},
+	{
+		"id": 17,
+		"nom": "Prêt de Jeux de Société",
+		"description": "Partagez ou empruntez des jeux de société pour des moments conviviaux.",
+		"categorie": "Bien",
+		"disponibilite": true,
+		"localisation": "Paris"
+	},
+	{
+		"id": 18,
+		"nom": "Prêt d'Équipement Sportif",
+		"description": "Empruntez ou prêtez des équipements sportifs (ballons, vélos, etc.).",
+		"categorie": "Bien",
+		"disponibilite": true,
+		"localisation": "Nice"
+	},
+	{
+		"id": 19,
+		"nom": "Soutien Psychologique",
+		"description": "Offrez ou recevez un espace d'écoute et de soutien psychologique.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Bordeaux"
+	},
+	{
+		"id": 20,
+		"nom": "Aide au Recyclage",
+		"description": "Partagez vos connaissances ou recevez de l'aide pour recycler efficacement.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Paris"
+	},
+	{
+		"id": 21,
+		"nom": "Cours de Yoga",
+		"description": "Participez à des séances de yoga gratuites en extérieur.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Montpellier"
+	},
+	{
+		"id": 22,
+		"nom": "Prêt de Véhicules",
+		"description": "Proposez ou demandez le prêt de véhicules pour des petits trajets.",
+		"categorie": "Bien",
+		"disponibilite": true,
+		"localisation": "Nice"
+	},
+	{
+		"id": 23,
+		"nom": "Aide aux Courses en Ligne",
+		"description": "Aidez quelqu'un à passer ses commandes en ligne.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Toulouse"
+	},
+	{
+		"id": 24,
+		"nom": "Apprentissage du Vélo",
+		"description": "Enseignez ou apprenez à faire du vélo.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Paris"
+	},
+	{
+		"id": 25,
+		"nom": "Partage de Matériel Scolaire",
+		"description": "Fournissez ou demandez des fournitures scolaires.",
+		"categorie": "Bien",
+		"disponibilite": true,
+		"localisation": "Nantes"
+	},
+	{
+		"id": 26,
+		"nom": "Prêt d'Instruments de Musique",
+		"description": "Partagez ou empruntez des instruments de musique.",
+		"categorie": "Bien",
+		"disponibilite": true,
+		"localisation": "Marseille"
+	},
+	{
+		"id": 27,
+		"nom": "Cours de Danse",
+		"description": "Participez à des cours de danse improvisés en groupe.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Montpellier"
+	},
+	{
+		"id": 28,
+		"nom": "Aide à la Lecture",
+		"description": "Proposez ou recevez une lecture pour des personnes âgées ou malvoyantes.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Tours"
+	},
+	{
+		"id": 29,
+		"nom": "Ateliers de Peinture",
+		"description": "Apprenez ou partagez des techniques de peinture lors d'ateliers.",
+		"categorie": "Service",
+		"disponibilite": true,
+		"localisation": "Strasbourg"
+	},
+	{
+		"id": 30,
+		"nom": "Collecte et Distribution de Denrées",
+		"description": "Participez à la collecte ou à la distribution de denrées alimentaires.",
+		"categorie": "Bien",
+		"disponibilite": true,
+		"localisation": "Lyon"
+	}
+]

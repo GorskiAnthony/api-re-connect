@@ -35,35 +35,75 @@ Pour installer le projet, assurez-vous d'avoir Node.js installé sur votre machi
 
 ## Terminaison API
 
-#### Get root path
+### Get root path
 
 ```http
-  GET /
+GET /
 ```
 
-| Parameter | Type   | Description            |
-| :-------- | :----- | :--------------------- |
-| `none`    | `none` | Return welcome message |
+| Parameter | Type   | Description               |
+| :-------- | :----- | :------------------------ |
+| `none`    | `none` | Returns a welcome message |
 
-#### Get all items
+---
+
+### Get all resources
 
 ```http
-  GET /api/items
+GET /api/resources
 ```
 
-| Parameter | Type   | Description      |
-| :-------- | :----- | :--------------- |
-| `none`    | `none` | Return all items |
+| Parameter | Type   | Description           |
+| :-------- | :----- | :-------------------- |
+| `none`    | `none` | Returns all resources |
 
-#### Get item
+---
+
+### Get resource by ID
 
 ```http
-  GET /api/items/${id}
+GET /api/resources/${id}
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+| Parameter | Type     | Description                               |
+| :-------- | :------- | :---------------------------------------- |
+| `id`      | `string` | **Required**. ID of the resource to fetch |
+
+---
+
+### Get resources by availability
+
+```http
+GET /api/resources/available
+```
+
+| Parameter | Type   | Description                     |
+| :-------- | :----- | :------------------------------ |
+| `none`    | `none` | Returns all available resources |
+
+---
+
+### Get resources by category
+
+```http
+GET /api/resources/category/${categorie}
+```
+
+| Parameter   | Type     | Description                         |
+| :---------- | :------- | :---------------------------------- |
+| `categorie` | `string` | **Required**. Category to filter by |
+
+---
+
+### Get resources by location
+
+```http
+GET /api/resources/location/${city}
+```
+
+| Parameter | Type     | Description                     |
+| :-------- | :------- | :------------------------------ |
+| `city`    | `string` | **Required**. City to filter by |
 
 ## Contact Us
 

@@ -41,9 +41,9 @@ Pour installer le projet, assurez-vous d'avoir Node.js installé sur votre machi
 GET /
 ```
 
-| Parameter | Type   | Description               |
-| :-------- | :----- | :------------------------ |
-| `none`    | `none` | Returns a welcome message |
+| Parameter | Type   | Description                     |
+| :-------- | :----- | :------------------------------ |
+| `none`    | `none` | Returns a documentation message |
 
 ---
 

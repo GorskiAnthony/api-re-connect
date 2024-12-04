@@ -5,7 +5,7 @@
 		"description": "Fournissez ou recevez de la nourriture en cas de besoin.",
 		"categorie": "Bien",
 		"localisation": "Paris",
-		"image": "./assets/images/Alimentation.png"
+		"image": "/assets/images/Alimentation.png"
 	},
 	{
 		"id": 2,
@@ -13,7 +13,7 @@
 		"description": "Partagez ou recevez de l'eau potable.",
 		"categorie": "Bien",
 		"localisation": "Lyon",
-		"image": "./assets/images/Eau.png"
+		"image": "/assets/images/Eau.png"
 	},
 	{
 		"id": 3,
@@ -21,7 +21,7 @@
 		"description": "Apportez ou recevez du soutien moral pour affronter ce moment difficiles.",
 		"categorie": "Service",
 		"localisation": "Lyon",
-		"image": "./assets/images/Soutient.png"
+		"image": "/assets/images/Soutient.png"
 	},
 	{
 		"id": 4,
@@ -29,7 +29,7 @@
 		"description": "Aidez ou demandez de l'aide pour effectuer des recherches de produits de santé",
 		"categorie": "Service",
 		"localisation": "Paris",
-		"image": "./assets/images/Medicaments.png"
+		"image": "/assets/images/Medicaments.png"
 	},
 	{
 		"id": 5,
@@ -37,7 +37,7 @@
 		"description": "Donnez ou recevez des vêtements qui ne sont plus utiles.",
 		"categorie": "Bien",
 		"localisation": "Nice",
-		"image": "./assets/images/Vetements.png"
+		"image": "/assets/images/Vetements.png"
 	},
 	{
 		"id": 6,
@@ -45,7 +45,7 @@
 		"description": "Partagez ou empruntez des outils pour bricoler ou jardiner.",
 		"categorie": "Service",
 		"localisation": "Aix-en-Provence",
-		"image": "./assets/images/Bricolage.png"
+		"image": "/assets/images/Bricolage.png"
 	},
 	{
 		"id": 7,
@@ -53,7 +53,7 @@
 		"description": "Partagez vos livres avec d'autres lecteurs.",
 		"categorie": "Bien",
 		"localisation": "Nice",
-		"image": "./assets/images/Lecture.png"
+		"image": "/assets/images/Lecture.png"
 	},
 	{
 		"id": 8,
@@ -61,7 +61,7 @@
 		"description": "Apprenez ou enseignez des recettes simples et économiques en ressources.",
 		"categorie": "Service",
 		"localisation": "Paris",
-		"image": "./assets/images/Cuisine.png"
+		"image": "/assets/images/Cuisine.png"
 	},
 	{
 		"id": 9,
@@ -69,7 +69,7 @@
 		"description": "Proposez ou demandez de l'aide pour l'apprentissage de vos enfants, pensons aux générations futures.",
 		"categorie": "Service",
 		"localisation": "Paris",
-		"image": "./assets/images/Scolaire.png"
+		"image": "/assets/images/Scolaire.png"
 	},
 	{
 		"id": 10,
@@ -77,7 +77,7 @@
 		"description": "Rejoignez des groupes pour discuter de stratégies de recherches et de survies.",
 		"categorie": "Service",
 		"localisation": "Nancy",
-		"image": "./assets/images/Discussion.png"
+		"image": "/assets/images/Discussion.png"
 	},
 	{
 		"id": 11,
@@ -85,7 +85,7 @@
 		"description": "Partagez ou empruntez des jeux de société pour des moments conviviaux, c'est plutôt rare par les temps qui courent.",
 		"categorie": "Bien",
 		"localisation": "Tours",
-		"image": "./assets/images/Jeux.png"
+		"image": "/assets/images/Jeux.png"
 	},
 	{
 		"id": 12,
@@ -93,7 +93,7 @@
 		"description": "Empruntez ou prêtez des équipements pour votre survie.",
 		"categorie": "Bien",
 		"localisation": "Nice",
-		"image": "./assets/images/Survie.png"
+		"image": "/assets/images/Survie.png"
 	},
 	{
 		"id": 13,
@@ -101,7 +101,7 @@
 		"description": "Offrez ou recevez un espace d'écoute et de soutien psychologique.",
 		"categorie": "Service",
 		"localisation": "Bordeaux",
-		"image": "./assets/images/Psy.png"
+		"image": "/assets/images/Psy.png"
 	},
 	{
 		"id": 14,
@@ -109,7 +109,7 @@
 		"description": "Proposez ou demandez le prêt de véhicules pour des recherches plus lointaines.",
 		"categorie": "Bien",
 		"localisation": "Nice",
-		"image": "./assets/images/Vehicule.png"
+		"image": "/assets/images/Vehicule.png"
 	},
 	{
 		"id": 15,
@@ -117,7 +117,7 @@
 		"description": "Fournissez ou demandez des fournitures scolaires pour vos enfants.",
 		"categorie": "Bien",
 		"localisation": "Nantes",
-		"image": "./assets/images/Materiel.png"
+		"image": "/assets/images/Materiel.png"
 	},
 	{
 		"id": 16,
@@ -125,7 +125,7 @@
 		"description": "Partagez ou empruntez des instruments de musique, ne la négligeons pas.",
 		"categorie": "Bien",
 		"localisation": "Marseille",
-		"image": "./assets/images/Instruments.png"
+		"image": "/assets/images/Instruments.png"
 	},
 	{
 		"id": 17,
@@ -133,6 +133,6 @@
 		"description": "Participez à la gestion des stocks ou à la distribution de denrées alimentaires.",
 		"categorie": "Bien",
 		"localisation": "Lyon",
-		"image": "./assets/images/Denrees.png"
+		"image": "/assets/images/Denrees.png"
 	}
 ]

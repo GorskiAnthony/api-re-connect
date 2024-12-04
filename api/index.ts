@@ -1,4 +1,5 @@
 import express, { Request, Response } from "express";
+import path from "node:path";
 import cors from "cors";
 import Datas from "./datas.json";
 
@@ -11,7 +12,7 @@ const corsOptions = {
 	optionsSuccessStatus: 200,
 };
 
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, "public")));
 
 app.use(cors(corsOptions));
 app.use(express.json());
